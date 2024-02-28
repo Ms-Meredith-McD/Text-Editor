@@ -1,7 +1,3 @@
-/*
-  This is the actual application code. No work for you here. (Sorry.)
-*/
-
 import { getDb, putDb } from './database';
 import { header } from './header';
 
