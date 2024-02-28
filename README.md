@@ -11,7 +11,7 @@
 
 
 ## Screenshots
-
+![Text Editor Screenshot](image.png)
 
 
 ## Link
