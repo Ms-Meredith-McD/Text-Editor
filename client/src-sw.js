@@ -39,10 +39,10 @@ const paths = ["style", "script", "worker"];
 // instantiate the strategy we wish to use
 paths.includes(request.destination)
 registerRoute( ({ request }) => paths.includes(request.destination),
-  new workbox.strategies.StaleWhileRevalidate({
+  new StaleWhileRevalidate({
     cacheName: 'asset-cache',
     plugins: [
-      new workbox.cacheableResponsePlugin({
+      new CacheableResponsePlugin({
         statuses: [0, 200],
       }),
     ],
